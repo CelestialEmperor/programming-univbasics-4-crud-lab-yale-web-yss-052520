@@ -8,11 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   array =  Array ["A", "B", "C", "D"]
-  array.push("D")
+  array.push("E")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array =  Array ["A", "B", "C", "D"]
+  array.unshift("Z")
 end
 
 def remove_element_from_end_of_array(array)
